@@ -1,0 +1,14 @@
+D:\CodeProjects\CSharp\ClipboardManager\bin\Debug\net8.0-windows\ClipboardManager.exe
+D:\CodeProjects\CSharp\ClipboardManager\bin\Debug\net8.0-windows\ClipboardManager.deps.json
+D:\CodeProjects\CSharp\ClipboardManager\bin\Debug\net8.0-windows\ClipboardManager.runtimeconfig.json
+D:\CodeProjects\CSharp\ClipboardManager\bin\Debug\net8.0-windows\ClipboardManager.dll
+D:\CodeProjects\CSharp\ClipboardManager\bin\Debug\net8.0-windows\ClipboardManager.pdb
+D:\CodeProjects\CSharp\ClipboardManager\obj\Debug\net8.0-windows\ClipboardManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeProjects\CSharp\ClipboardManager\obj\Debug\net8.0-windows\ClipboardManager.AssemblyInfoInputs.cache
+D:\CodeProjects\CSharp\ClipboardManager\obj\Debug\net8.0-windows\ClipboardManager.AssemblyInfo.cs
+D:\CodeProjects\CSharp\ClipboardManager\obj\Debug\net8.0-windows\ClipboardManager.csproj.CoreCompileInputs.cache
+D:\CodeProjects\CSharp\ClipboardManager\obj\Debug\net8.0-windows\ClipboardManager.dll
+D:\CodeProjects\CSharp\ClipboardManager\obj\Debug\net8.0-windows\refint\ClipboardManager.dll
+D:\CodeProjects\CSharp\ClipboardManager\obj\Debug\net8.0-windows\ClipboardManager.pdb
+D:\CodeProjects\CSharp\ClipboardManager\obj\Debug\net8.0-windows\ClipboardManager.genruntimeconfig.cache
+D:\CodeProjects\CSharp\ClipboardManager\obj\Debug\net8.0-windows\ref\ClipboardManager.dll
