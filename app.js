@@ -1,9 +1,8 @@
-import { dirname, resolve } from 'node:path';
+import { dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 global.__filename = fileURLToPath(import.meta.url);
 global.__dirname = dirname(__filename);
-global.__maindir = resolve(__dirname, "..");
 
 import { Telegraf } from "telegraf";
 import { config } from "./src/config.js";

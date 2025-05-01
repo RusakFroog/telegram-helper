@@ -23,7 +23,7 @@ export async function handlerSend(ctx, isDocument) {
     try {
         const downloadLink = await ctx.telegram.getFileLink(file.file_id);
         const fileName = getFileName(downloadLink);
-        const filePath = `${global.__maindir}/cache/`;
+        const filePath = `${global.__dirname}/cache/`;
     
         if (!fs.existsSync(filePath))
             fs.mkdirSync(filePath);
@@ -34,15 +34,7 @@ export async function handlerSend(ctx, isDocument) {
         // copy file to clipboard
         await copyClipboard(filePath, fileName);
     
-        if (!isDocument) {
-            fs.rmSync(filePath + fileName);
-
-            const cacheDir = fs.readdirSync(filePath);
-
-            for (const file of cacheDir) {
-                fs.rm(filePath + file, () => null);
-            }
-        }
+        fs.rmSync(filePath + fileName);
     } catch (e) {
         console.error(e);
     }
@@ -68,7 +60,7 @@ async function downloadFile(filePath, fileName, downloadLink) {
 function copyClipboard(filePath, fileName) {
     return new Promise((res, rej) => {
         const child = spawn('dotnet',
-            [global.__maindir + '/modules/ClipboardManager.dll', filePath, fileName],
+            [global.__dirname + '/modules/ClipboardManager.dll', filePath, fileName],
             { stdio: 'inherit' }
         );
         
